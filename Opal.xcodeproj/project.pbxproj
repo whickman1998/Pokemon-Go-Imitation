@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7929F46B24C8A65C00D739DC /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929F46A24C8A65C00D739DC /* CreateUserViewController.swift */; };
+		7929F47524C8B30600D739DC /* Bulbasaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 7929F47224C8B30500D739DC /* Bulbasaur.png */; };
+		7929F47A24C8B3AC00D739DC /* Squirtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7929F47824C8B3AC00D739DC /* Squirtle.png */; };
+		7929F47B24C8B3AC00D739DC /* Charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 7929F47924C8B3AC00D739DC /* Charmander.png */; };
+		793545B224A4239C00EDAF61 /* ARItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793545B124A4239C00EDAF61 /* ARItem.swift */; };
+		793545B424A4258100EDAF61 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793545B324A4258100EDAF61 /* MapAnnotation.swift */; };
+		7935511F24CB8DA500790215 /* OpalIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7935511E24CB8DA500790215 /* OpalIcon.png */; };
+		7960C28924D383770076A6FF /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960C28824D383770076A6FF /* Battle.swift */; };
+		79966AD724CA14D500E32F69 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79966AD624CA14D500E32F69 /* Pokemon.swift */; };
+		79966AD924CA5A3200E32F69 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79966AD824CA5A3200E32F69 /* BattleViewController.swift */; };
+		79B228D224AA7F0500F17E54 /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B228D124AA7F0500F17E54 /* PC.swift */; };
+		79B228D424AA87F900F17E54 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B228D324AA87F900F17E54 /* Trainer.swift */; };
+		79B228D624AA896700F17E54 /* PokemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B228D524AA896700F17E54 /* PokemonManager.swift */; };
+		79B228D824AA8B7B00F17E54 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B228D724AA8B7B00F17E54 /* User.swift */; };
+		79C23CF224D366CC0094A3AA /* BattleBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C23CF124D366CB0094A3AA /* BattleBackground.png */; };
+		8FB21D7B1E13C34900B3E330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB21D7A1E13C34900B3E330 /* AppDelegate.swift */; };
+		8FB21D7D1E13C34900B3E330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB21D7C1E13C34900B3E330 /* ViewController.swift */; };
+		8FB21D801E13C34900B3E330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D7E1E13C34900B3E330 /* Main.storyboard */; };
+		8FB21D821E13C34900B3E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D811E13C34900B3E330 /* Assets.xcassets */; };
+		8FB21D851E13C34900B3E330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D831E13C34900B3E330 /* LaunchScreen.storyboard */; };
+		8FB21D8D1E13C35700B3E330 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D8C1E13C35700B3E330 /* art.scnassets */; };
+		8FB21D8F1E13C39F00B3E330 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB21D8E1E13C39F00B3E330 /* MapViewController.swift */; };
+		8FB21D961E13DEA200B3E330 /* Fireball.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D941E13DEA200B3E330 /* Fireball.scnp */; };
+		8FB21D971E13DEA200B3E330 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D951E13DEA200B3E330 /* spark.png */; };
+		A302FFC7D5773162DF49E875 /* Pods_Opal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7B0CBED79E754565D3F29 /* Pods_Opal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AD8BF997A860986E00FB50C /* Pods-Opal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opal.debug.xcconfig"; path = "Target Support Files/Pods-Opal/Pods-Opal.debug.xcconfig"; sourceTree = "<group>"; };
+		7929F46A24C8A65C00D739DC /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		7929F47224C8B30500D739DC /* Bulbasaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bulbasaur.png; sourceTree = "<group>"; };
+		7929F47824C8B3AC00D739DC /* Squirtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squirtle.png; sourceTree = "<group>"; };
+		7929F47924C8B3AC00D739DC /* Charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Charmander.png; sourceTree = "<group>"; };
+		793545B124A4239C00EDAF61 /* ARItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARItem.swift; sourceTree = "<group>"; };
+		793545B324A4258100EDAF61 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		7935511E24CB8DA500790215 /* OpalIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpalIcon.png; sourceTree = "<group>"; };
+		7960C28824D383770076A6FF /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		79966AD624CA14D500E32F69 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		79966AD824CA5A3200E32F69 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		79B228D124AA7F0500F17E54 /* PC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
+		79B228D324AA87F900F17E54 /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		79B228D524AA896700F17E54 /* PokemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonManager.swift; sourceTree = "<group>"; };
+		79B228D724AA8B7B00F17E54 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		79C23CF124D366CB0094A3AA /* BattleBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattleBackground.png; sourceTree = "<group>"; };
+		800247B68410B795B9492B75 /* Pods-Opal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opal.release.xcconfig"; path = "Target Support Files/Pods-Opal/Pods-Opal.release.xcconfig"; sourceTree = "<group>"; };
+		8FB21D771E13C34900B3E330 /* Opal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB21D7A1E13C34900B3E330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FB21D7C1E13C34900B3E330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FB21D7F1E13C34900B3E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FB21D811E13C34900B3E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FB21D841E13C34900B3E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FB21D861E13C34900B3E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB21D8C1E13C35700B3E330 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		8FB21D8E1E13C39F00B3E330 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8FB21D941E13DEA200B3E330 /* Fireball.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fireball.scnp; sourceTree = "<group>"; };
+		8FB21D951E13DEA200B3E330 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CDA7B0CBED79E754565D3F29 /* Pods_Opal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FB21D741E13C34900B3E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A302FFC7D5773162DF49E875 /* Pods_Opal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE648C688CE87ADC3F61B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8BF997A860986E00FB50C /* Pods-Opal.debug.xcconfig */,
+				800247B68410B795B9492B75 /* Pods-Opal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A94821FAC93396A9B58BFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7B0CBED79E754565D3F29 /* Pods_Opal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7929F46824C8A5F700D739DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FB21D8E1E13C39F00B3E330 /* MapViewController.swift */,
+				7929F46A24C8A65C00D739DC /* CreateUserViewController.swift */,
+				8FB21D7C1E13C34900B3E330 /* ViewController.swift */,
+				79966AD824CA5A3200E32F69 /* BattleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7929F46924C8A60300D739DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79B228D124AA7F0500F17E54 /* PC.swift */,
+				79B228D324AA87F900F17E54 /* Trainer.swift */,
+				79B228D524AA896700F17E54 /* PokemonManager.swift */,
+				793545B324A4258100EDAF61 /* MapAnnotation.swift */,
+				793545B124A4239C00EDAF61 /* ARItem.swift */,
+				79B228D724AA8B7B00F17E54 /* User.swift */,
+				79966AD624CA14D500E32F69 /* Pokemon.swift */,
+				7960C28824D383770076A6FF /* Battle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FB21D6E1E13C34900B3E330 = {
+			isa = PBXGroup;
+			children = (
+				8FB21D791E13C34900B3E330 /* Opal */,
+				8FB21D781E13C34900B3E330 /* Products */,
+				1FE648C688CE87ADC3F61B66 /* Pods */,
+				6A94821FAC93396A9B58BFDE /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		8FB21D781E13C34900B3E330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB21D771E13C34900B3E330 /* Opal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FB21D791E13C34900B3E330 /* Opal */ = {
+			isa = PBXGroup;
+			children = (
+				7929F46924C8A60300D739DC /* Models */,
+				7929F46824C8A5F700D739DC /* ViewControllers */,
+				8FB21D7A1E13C34900B3E330 /* AppDelegate.swift */,
+				8FB21D7E1E13C34900B3E330 /* Main.storyboard */,
+				8FB21D8C1E13C35700B3E330 /* art.scnassets */,
+				8FB21D811E13C34900B3E330 /* Assets.xcassets */,
+				7929F47224C8B30500D739DC /* Bulbasaur.png */,
+				79C23CF124D366CB0094A3AA /* BattleBackground.png */,
+				7929F47924C8B3AC00D739DC /* Charmander.png */,
+				7935511E24CB8DA500790215 /* OpalIcon.png */,
+				7929F47824C8B3AC00D739DC /* Squirtle.png */,
+				8FB21D831E13C34900B3E330 /* LaunchScreen.storyboard */,
+				8FB21D941E13DEA200B3E330 /* Fireball.scnp */,
+				8FB21D951E13DEA200B3E330 /* spark.png */,
+				8FB21D861E13C34900B3E330 /* Info.plist */,
+			);
+			path = Opal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FB21D761E13C34900B3E330 /* Opal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB21D891E13C34900B3E330 /* Build configuration list for PBXNativeTarget "Opal" */;
+			buildPhases = (
+				D8B0C230219528CFF67E4704 /* [CP] Check Pods Manifest.lock */,
+				8FB21D731E13C34900B3E330 /* Sources */,
+				8FB21D741E13C34900B3E330 /* Frameworks */,
+				8FB21D751E13C34900B3E330 /* Resources */,
+				63174DB959B95EE16B7DFBFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Opal;
+			productName = AR_Hunt;
+			productReference = 8FB21D771E13C34900B3E330 /* Opal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FB21D6F1E13C34900B3E330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "William Hickman";
+				TargetAttributes = {
+					8FB21D761E13C34900B3E330 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6LUPL72JSM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8FB21D721E13C34900B3E330 /* Build configuration list for PBXProject "Opal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FB21D6E1E13C34900B3E330;
+			productRefGroup = 8FB21D781E13C34900B3E330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FB21D761E13C34900B3E330 /* Opal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FB21D751E13C34900B3E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7929F47A24C8B3AC00D739DC /* Squirtle.png in Resources */,
+				8FB21D851E13C34900B3E330 /* LaunchScreen.storyboard in Resources */,
+				79C23CF224D366CC0094A3AA /* BattleBackground.png in Resources */,
+				8FB21D971E13DEA200B3E330 /* spark.png in Resources */,
+				8FB21D8D1E13C35700B3E330 /* art.scnassets in Resources */,
+				7935511F24CB8DA500790215 /* OpalIcon.png in Resources */,
+				7929F47524C8B30600D739DC /* Bulbasaur.png in Resources */,
+				7929F47B24C8B3AC00D739DC /* Charmander.png in Resources */,
+				8FB21D821E13C34900B3E330 /* Assets.xcassets in Resources */,
+				8FB21D801E13C34900B3E330 /* Main.storyboard in Resources */,
+				8FB21D961E13DEA200B3E330 /* Fireball.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63174DB959B95EE16B7DFBFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opal/Pods-Opal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PokemonAPI/PokemonAPI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PokemonAPI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opal/Pods-Opal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B0C230219528CFF67E4704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Opal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FB21D731E13C34900B3E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79966AD924CA5A3200E32F69 /* BattleViewController.swift in Sources */,
+				7960C28924D383770076A6FF /* Battle.swift in Sources */,
+				8FB21D7D1E13C34900B3E330 /* ViewController.swift in Sources */,
+				7929F46B24C8A65C00D739DC /* CreateUserViewController.swift in Sources */,
+				793545B424A4258100EDAF61 /* MapAnnotation.swift in Sources */,
+				79B228D224AA7F0500F17E54 /* PC.swift in Sources */,
+				79B228D624AA896700F17E54 /* PokemonManager.swift in Sources */,
+				79B228D424AA87F900F17E54 /* Trainer.swift in Sources */,
+				79966AD724CA14D500E32F69 /* Pokemon.swift in Sources */,
+				79B228D824AA8B7B00F17E54 /* User.swift in Sources */,
+				793545B224A4239C00EDAF61 /* ARItem.swift in Sources */,
+				8FB21D8F1E13C39F00B3E330 /* MapViewController.swift in Sources */,
+				8FB21D7B1E13C34900B3E330 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FB21D7E1E13C34900B3E330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FB21D7F1E13C34900B3E330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FB21D831E13C34900B3E330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FB21D841E13C34900B3E330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FB21D871E13C34900B3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8FB21D881E13C34900B3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FB21D8A1E13C34900B3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD8BF997A860986E00FB50C /* Pods-Opal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LUPL72JSM;
+				INFOPLIST_FILE = "$(SRCROOT)/Opal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.AR-Hunt";
+				PRODUCT_NAME = Opal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8FB21D8B1E13C34900B3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800247B68410B795B9492B75 /* Pods-Opal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LUPL72JSM;
+				INFOPLIST_FILE = "$(SRCROOT)/Opal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.AR-Hunt";
+				PRODUCT_NAME = Opal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB21D721E13C34900B3E330 /* Build configuration list for PBXProject "Opal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB21D871E13C34900B3E330 /* Debug */,
+				8FB21D881E13C34900B3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB21D891E13C34900B3E330 /* Build configuration list for PBXNativeTarget "Opal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB21D8A1E13C34900B3E330 /* Debug */,
+				8FB21D8B1E13C34900B3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FB21D6F1E13C34900B3E330 /* Project object */;
+}
